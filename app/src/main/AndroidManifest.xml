@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Intent_Implicitintent_explicitintent"
+        tools:targetApi="31">
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_SETTING"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_MAP_LOCATION"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_EMAIL"
+            android:exported="true"></activity>
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_CONTACTS"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_SET_EVENT_CALANDER"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_CAPTURE_VEDIO"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_SET_TIMER"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_SET_ALARM"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT_CAPTURE_IMAGE"
+            android:exported="true" />
+        <activity
+            android:name="implicit_intent.implicit_Intent_capture_image"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_IMPLICIT_INTENT"
+            android:exported="true" />
+        <activity
+            android:name="new_way_intent.NEW_WAY_FOR_RESULT_EXPLICIT_INTENT"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_8_for_result_rectangle"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_7_for_result_tringle"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_6_for_result"
+            android:exported="false" />
+        <activity
+            android:name="implicit_intent.Implicit_intent_send_sms"
+            android:exported="false" />
+        <activity
+            android:name="implicit_intent.Implicit_Intent_sendemail"
+            android:exported="true" />
+        <activity
+            android:name="implicit_intent.implicit_intent_google"
+            android:exported="true" />
+        <activity
+            android:name="implicit_intent.Implicit_Intent_1"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_5"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_4"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_3"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent_2"
+            android:exported="false" />
+        <activity
+            android:name="Explicit_Intent.Explicit_Intent"
+            android:exported="false" />
+        <activity
+            android:name="Intent.Intents"
+            android:exported="false" />
+    </application>
+
+</manifest>
